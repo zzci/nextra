@@ -1,0 +1,35 @@
+{
+  "name": "nextra-custom",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "dev:cf": "wrangler pages dev out --local --port 3000 --compatibility-date=2022-12-02",
+    "export": "next export && cp -a _routes.json out/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "mermaid": "^9.2.2",
+    "@headlessui/react": "^1.7.4",
+    "@mdx-js/react": "^2.1.5",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/typography": "^0.5.8",
+    "@types/react": "18.0.26",
+    "autoprefixer": "^10.4.13",
+    "classnames": "^2.3.2",
+    "next-themes": "^0.2.1",
+    "nextra": "^2.0.0",
+    "postcss-import": "^15.0.1",
+    "react-cusdis": "^2.1.3",
+    "tailwindcss": "^3.2.4",
+    "typescript": "4.9.3",
+    "wrangler": "^2.5.0"
+  }
+}
